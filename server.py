@@ -37,7 +37,7 @@ limiter = Limiter(
 
 ADMIN_USER = os.environ.get("ADMIN_USER", "admin")
 ADMIN_PASS = os.environ.get("ADMIN_PASS", "changeme")
-PORT = int(os.environ.get("PORT", "5000"))
+PORT = int(os.environ.get("PORT", "8080"))
 
 # ---------------------------------------------------------------------------
 # Helpers
